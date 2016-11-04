@@ -18,7 +18,7 @@
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="16,95,0,0" TextWrapping="Wrap" Text="Title" VerticalAlignment="Top" Height="31" Width="359" FontSize="20"/>
         <TextBox x:Name="txtAddTitle" HorizontalAlignment="Left" Margin="14,137,0,0" TextWrapping="Wrap" Text="{Binding Title, Mode=TwoWay}" VerticalAlignment="Top" Height="48" Width="362" PlaceholderText="Title"/>
         <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="16,214,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top" Height="31" Width="356" FontSize="20"/>
-        <TextBox x:Name="txtAddDesc" HorizontalAlignment="Left" Margin="14,250,0,0" TextWrapping="Wrap" Text="{Binding Content,Mode=TwoWay}" VerticalAlignment="Top" Width="362" Height="132" PlaceholderText="Description"/>
+        <TextBox x:Name="txtAddDesc" HorizontalAlignment="Left" Margin="14,250,0,0" TextWrapping="Wrap" Text="{Binding Content,Mode=TwoWay}" VerticalAlignment="Top" Width="362" Height="183" PlaceholderText="Description"/>
 
     </Grid>
 </Page>
