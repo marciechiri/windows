@@ -76,10 +76,7 @@ namespace NoteBook
            
             notes.Title = txtAddTitle.Text;
             notes.Content = txtAddDesc.Text;
-            notes.User = "091674-091573-092499";
-            //notes._latitude = "0.00";
-            //notes._longitude = "0.00";
-
+            notes.User = "091675-091793-060253"; 
 
             Geolocator geolocator = new Geolocator();
             geolocator.DesiredAccuracyInMeters = 50;

@@ -32,7 +32,7 @@ namespace NoteBook
             }
         }
 
-        private string _category;
+        private string _category = "Tasks";
         public string Category
         {
             get
